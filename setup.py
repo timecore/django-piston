@@ -12,15 +12,14 @@ import os
 
 setup(
     name = "django-piston",
-    version = "0.2.3rc1-CORE",
-    url = 'http://bitbucket.org/jespern/django-piston/wiki/Home',
-	download_url = 'http://bitbucket.org/jespern/django-piston/downloads/',
+    version = "0.2.3rc2-CORE",
+    url = 'https://github.com/timecore/django-piston',
+	download_url = 'http://pypi.globoi.com/django-piston/',
     license = 'BSD',
     description = "Piston is a Django mini-framework creating APIs.",
     author = 'Jesper Noehr',
     author_email = 'jesper@noehr.org',
     packages = find_packages(),
-    namespace_packages = ['piston'],
     include_package_data = True,
     zip_safe = False,
     classifiers = [
